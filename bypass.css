@@ -1,0 +1,108 @@
+.bypass-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.bypass-wrapper h1 {
+    border-left: none;
+    border-bottom: 6px solid #b31b1b;
+    padding-bottom: 15px;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.download-section {
+    margin: 40px 0;
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    background: #141414;
+    border: 2px solid #2a2a2a;
+    border-left: 6px solid #00aa44;
+    color: #ffffff;
+    padding: 18px 45px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    box-shadow: 8px 8px 0 rgba(0,0,0,0.5);
+}
+
+.download-btn:hover {
+    transform: translate(-4px, -4px);
+    border-color: #00aa44;
+    box-shadow: 12px 12px 0 rgba(0, 170, 68, 0.3);
+}
+
+.info-section {
+    margin: 30px 0;
+    padding: 20px;
+    background: #141414;
+    border: 1px solid #2a2a2a;
+    border-left: 6px solid #b31b1b;
+    box-shadow: 6px 6px 0 rgba(0,0,0,0.5);
+}
+
+.info-section p {
+    font-size: 1.2rem;
+    color: #888899;
+    margin-bottom: 15px;
+}
+
+.instruction-link {
+    color: #b31b1b;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 5px 15px;
+}
+
+.instruction-link:hover {
+    border: 1px solid #b31b1b;
+    transform: scale(1.05);
+}
+
+.clarification-section {
+    margin: 30px 0;
+}
+
+.clarification-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border: 1px solid #2a2a2a;
+    border-left: 4px solid #b31b1b;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    background: #141414;
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.5);
+}
+
+.clarification-link:hover {
+    transform: translate(-2px, -2px);
+    border-color: #b31b1b;
+    box-shadow: 6px 6px 0 rgba(179, 27, 27, 0.3);
+}
+
+@media (max-width: 768px) {
+    .bypass-wrapper h1 { font-size: 2.2rem; }
+    .download-btn { padding: 14px 35px; font-size: 1.2rem; }
+}
+
+@media (max-width: 480px) {
+    .bypass-wrapper h1 { font-size: 1.8rem; }
+    .download-btn { padding: 12px 25px; font-size: 1rem; }
+    .instruction-link { font-size: 1rem; }
+}
